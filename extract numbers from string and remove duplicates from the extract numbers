@@ -10,3 +10,18 @@ for num in b:
     if num not in c:
         c.append(num)
 print('the numbers in the string after removing duplicates',c)
+
+
+"ANOTHER METHOD"
+n=input()
+a=[]
+b=[]
+for i in n:
+    if i.isdigit():
+        a.append(int(i))
+print(a)
+for num in a:
+    if num not in b:
+        b.append(num)
+print(b)
+
