@@ -18,7 +18,7 @@ n=input()
 a=[]
 b=[]
 for i in n:
-    if i.isdigit():
+    if i.isalpha():
         a.append(i)
 print(a)
 for letters in a:
