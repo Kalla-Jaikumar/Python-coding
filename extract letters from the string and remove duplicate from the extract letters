@@ -10,3 +10,20 @@ for letters in b:
     if letters not in c:
         c.append(letters)
 print('the letters in the string after removing duplicates',c)
+
+
+
+"ANOTHER METHOD"
+n=input()
+a=[]
+b=[]
+for i in n:
+    if i.isdigit():
+        a.append(i)
+print(a)
+for letters in a:
+    if letters not in b:
+        b.append(letters)
+print(b)
+
+
